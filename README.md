@@ -3,6 +3,7 @@
 ## Overview
 
 This project is a small, practical Python program that retrieves **current weather conditions for selected Canadian cities** and displays them in a clean, tabular, console-friendly format similar to Environment Canada reports.
+It can be modified to use US cities as well as other countries.
 
 It demonstrates:
 
