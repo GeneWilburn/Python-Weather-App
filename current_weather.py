@@ -5,8 +5,7 @@ import math
 
 # ---------------- CONFIGURATION ----------------
 
-# API_KEY = "YOUR_API_KEY_HERE"  # <-- put your OpenWeatherMap API key here
-API_KEY = "f6f1f7f9005c0f83b9a37b6b42a92ab7"  
+# API_KEY = "YOUR_API_KEY_HERE"  # <-- put your OpenWeatherMap API key here and uncomment 
 CITIES = [
     "Victoria, CA",
     "Vancouver, CA",
