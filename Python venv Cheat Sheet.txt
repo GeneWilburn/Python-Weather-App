@@ -1,0 +1,29 @@
+# 1️⃣ Create a virtual environment
+python3 -m venv ~/weather/venv
+
+# 2️⃣ Activate the venv
+source ~/weather/venv/bin/activate
+# Prompt changes: (venv) $
+
+# 3️⃣ Install packages inside venv
+pip install requests lxml
+
+# 4️⃣ Run a Python script inside venv
+python current_weather.py
+# Or without activating
+~/weather/venv/bin/python current_weather.py
+
+# 5️⃣ Check which Python and pip are active
+which python
+which pip
+
+# 6️⃣ Deactivate the venv
+deactivate
+# Prompt returns to normal
+
+# Optional way to run the script without activating venv
+~/weather/venv/bin/python ~/weather/current_weather.py
+
+# Optional way to alias the script
+alias weather='~/weather/venv/bin/python ~/weather/current_weather.py'
+
